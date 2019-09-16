@@ -18,9 +18,9 @@ Name2 = ['maskg',num2str(i)];
 
 
 % eval(['result = colour_histogram(',Name1,',0);']);
-% P = findpeak(result);
+% P = find_peak(result);
 % distance = dis;
-% ColourLabel = peakselection(distance, P);
+% ColourLabel = peak_selection(distance, P);
 % cl1 = insertInterpret(ColourLabel);
 % cl2 = interpretLabel(ColourLabel);
 % eval(['[RI, cc, ri3] = readimage_rebuild(',Name1,', ColourLabel);']);
